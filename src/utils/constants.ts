@@ -1,0 +1,9 @@
+export const API_BASE_URL = 'https://api.prof.world/v2.0/profile/';
+export const API_LOGIN_USER = 'loginUser/';
+export const API_CONFIRM_EMAIL = 'confirmEmail/';
+export const API_CONFIRM_PHONE = 'confirmPhone/';
+export const API_CONFIRM_PHONE_SEND_SMS = 'confirmPhoneSendSms';
+export const API_FORGOT_PASSWORD = 'forgotPassword/';
+export const API_RESET_PASSWORD = 'resetPassword';
+export const API_REGISTRATION = 'registration/';
+export const API_PROFILE_CREATE = 'profileCreate/';

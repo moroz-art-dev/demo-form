@@ -1,0 +1,33 @@
+@import (reference) './assets/styles/theme/variables.less';
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&family=Markazi+Text:wght@400;500&family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  font-size: @font-size;
+}
+
+html, body, #root {
+   min-height: 100vh;
+   margin: auto;
+   height: auto;
+}
+
+body {
+  background: linear-gradient(180deg, @sidebar 0%, @secondary-dark 18.75%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+}
